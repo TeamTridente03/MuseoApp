@@ -43,30 +43,30 @@
 
         <StackPanel Grid.Row="8" Grid.Column="1" Grid.ColumnSpan="2" VerticalAlignment="Center" HorizontalAlignment="Center" Height="40"  Width="163">
             <Border BorderBrush="Black" BorderThickness="2" CornerRadius="0" Height="40">
-                <Button x:Name="btnAccedi" Content="Accedi" FontSize="22" FontWeight="Bold" VerticalContentAlignment="Top" HorizontalContentAlignment="Center" Foreground="Black" Click="btnAccedi_Click" />
+                <Button x:Name="btnAccedi" Content="Accedi" FontSize="22"  FontWeight="UltraLight" VerticalContentAlignment="Top" HorizontalContentAlignment="Center" Foreground="Black" Click="btnAccedi_Click" />
             </Border>
         </StackPanel>
 
         <StackPanel Grid.Row="3" Grid.Column="1" Grid.ColumnSpan="2" VerticalAlignment="Center" HorizontalAlignment="Center" Height="45"  Grid.RowSpan="3" Width="163">
-            <TextBox x:Name="txtEmail" Text=""  FontSize="16" VerticalContentAlignment="Top" HorizontalContentAlignment="Left" Height="41"/>
+            <TextBox x:Name="txtEmail" Text=""  FontWeight="UltraLight"  FontSize="18" VerticalContentAlignment="Top" HorizontalContentAlignment="Left" Height="41"/>
         </StackPanel>
 
         <StackPanel Grid.Row="5" Grid.Column="1" Grid.ColumnSpan="2" VerticalAlignment="Center" HorizontalAlignment="Center" Height="45" Grid.RowSpan="3" Width="163">
-            <TextBox x:Name="txtPass" Text=""  FontSize="16"  VerticalContentAlignment="Top" HorizontalContentAlignment="Left" Foreground="Black"  Height="40" />
+            <TextBox x:Name="txtPass" Text=""  FontSize="18"  VerticalContentAlignment="Top" HorizontalContentAlignment="Left"  FontWeight="UltraLight" Foreground="Black"  Height="40" />
         </StackPanel>
 
         <StackPanel Grid.Row="3" Grid.ColumnSpan="2" Grid.Column="1" VerticalAlignment="Bottom" HorizontalAlignment="Center" Height="30"  Width="160">
-            <Label Content="Inserci la Email"   FontSize="15" FontWeight="Bold" VerticalContentAlignment="Top" HorizontalContentAlignment="Center"/>
+            <Label Content="Inserisci la Email"   FontSize="15" FontWeight="UltraLight" VerticalContentAlignment="Top" HorizontalContentAlignment="Center"/>
         </StackPanel>
 
         <StackPanel Grid.Row="5" Grid.ColumnSpan="2" Grid.Column="1"  VerticalAlignment="Center" HorizontalAlignment="Center" Height="30" Width="160">
-            <Label Content="Inserci la Password"   FontSize="15" FontWeight="Bold" VerticalContentAlignment="Top" HorizontalContentAlignment="Center" />
+            <Label Content="Inserisci la Password"  FontWeight="UltraLight"  FontSize="15" VerticalContentAlignment="Top" HorizontalContentAlignment="Center" />
         </StackPanel>
 
 
         <Image Grid.Column="0" Grid.Row="1"   Grid.RowSpan="8" HorizontalAlignment="Left" Source="QR Code per sito.PNG" Width="190" Height="170" Stretch="Fill" Grid.ColumnSpan="2"/>
         <StackPanel Grid.Row="7" Grid.Column="0" VerticalAlignment="Bottom" HorizontalAlignment="Left" Height="30" Margin="0,0,27,3" Width="160">
-            <Label Content="Visita il nostro sito"   FontSize="15" FontWeight="Bold" VerticalContentAlignment="Top" HorizontalContentAlignment="Left" />
+            <Label Content="Visita il nostro sito"   FontSize="15" FontWeight="UltraLight" VerticalContentAlignment="Top" HorizontalContentAlignment="Left" />
         </StackPanel>
         <Image Grid.Column="3" Width="200" Grid.Row="2" Grid.RowSpan="7" Source="bambino scultura (1).jpg" Stretch="Fill"/>
 

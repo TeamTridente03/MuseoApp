@@ -34,20 +34,20 @@
         </Grid.RowDefinitions>
 
         <StackPanel Grid.Row="1" Grid.Column="0" VerticalAlignment="Bottom" HorizontalAlignment="Center" Height="30" Width="126">
-            <Label Content="Compra"   FontSize="22" FontWeight="Bold" VerticalContentAlignment="Top" HorizontalContentAlignment="Center"/>
+            <Label Content="Compra"   FontSize="22" FontWeight="UltraLight" VerticalContentAlignment="Top" HorizontalContentAlignment="Center"/>
         </StackPanel>
 
         <StackPanel Grid.Row="1" Grid.Column="1" VerticalAlignment="Center" HorizontalAlignment="Center" Height="30" Width="126">
-            <Label Content="Quantità"   FontSize="22" FontWeight="Bold" VerticalContentAlignment="Top" HorizontalContentAlignment="Center"/>
+            <Label Content="Quantità"   FontSize="22"  FontWeight="UltraLight" VerticalContentAlignment="Top" HorizontalContentAlignment="Center"/>
         </StackPanel>
 
         <StackPanel Grid.Row="1" Grid.Column="1"  VerticalAlignment="Bottom"  HorizontalAlignment="Center" Height="45"  Width="260">
-            <TextBox x:Name="txtQuantita"  FontSize="13" FontWeight="Bold" Foreground="Black"  Height="40" />
+            <TextBox x:Name="txtQuantita"  FontSize="18" HorizontalContentAlignment="Center" FontWeight="UltraLight" Foreground="Black"  Height="40"  />
         </StackPanel>
 
         <StackPanel Grid.Row="2" Grid.Column="1"  VerticalAlignment="Center" HorizontalAlignment="Center" Grid.RowSpan="2" Height="40"  Width="163">
             <Border BorderBrush="Black" BorderThickness="2" CornerRadius="0" Height="40">
-                <Button x:Name="btnCompra"  Click="btnCompra_Click" Content="Compra" FontSize="22" FontWeight="Bold" VerticalContentAlignment="Top" HorizontalContentAlignment="Center" Foreground="Black" />
+                <Button x:Name="btnCompra"  Click="btnCompra_Click" Content="Compra" FontSize="22" FontWeight="UltraLight" VerticalContentAlignment="Top" HorizontalContentAlignment="Center" Foreground="Black" />
             </Border>
         </StackPanel>
 
@@ -61,7 +61,7 @@
         </StackPanel>
 
         <StackPanel Grid.Row="2" Grid.Column="0" VerticalAlignment="Top" HorizontalAlignment="Left" Height="185"  Width="260">
-            <TextBlock  FontSize="14" Height="185" Width="260">
+            <TextBlock  FontSize="14" Height="185" Width="260"  FontWeight="UltraLight">
                    Il biglietto per un'ignresso nel museo  <LineBreak/>
                    permette  un tour dettagliato e guidato da  <LineBreak/>
                    un tour operator con un costo prevalente <LineBreak/>

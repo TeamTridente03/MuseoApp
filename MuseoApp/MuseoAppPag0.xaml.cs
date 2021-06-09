@@ -30,10 +30,12 @@ namespace MuseoApp
         {
             Random r = new Random();
             int n = r.Next(1000, 4000);
-            double Quantita = double.Parse(txtQuantita.Text);
+            double Quantità = double.Parse(txtQuantita.Text);
             int prezzo = 15;
-            double totale = Quantita * prezzo;
+            double totale = Quantità * prezzo;
             lblReso.Content = $"{n}";
         }
+
+      
     }
 }

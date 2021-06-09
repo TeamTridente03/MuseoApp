@@ -19,7 +19,7 @@
         <StackPanel Grid.Column="1" Grid.Row="0">
             <Grid>
                 <Image Height="221" Width="150" Source="fontana_lucio (1).jpg" Stretch="Fill" Grid.Column="0" HorizontalAlignment="Left"  />
-                <TextBlock  FontSize="14" Width="239" HorizontalAlignment="Right">
+                <TextBlock  FontSize="14" Width="239" HorizontalAlignment="Right"  FontWeight="UltraLight">
                    L'autore di questo opera iconica<LineBreak/>
                    dell'astrattismo Lucio Fontana <LineBreak/>
                     è uno dei massimi pittori dell'arte<LineBreak/>
@@ -27,9 +27,9 @@
                     tina cresciuto in italia, studiò a milano  <LineBreak/>
                     si laureò e subito dopo tornò in<LineBreak/>
                     Argentina dove fondò il partito <LineBreak/>
-                    Spazialista,  dove egli creò le sue <LineBreak/>
-                    prime tele come questa fatte da squa<LineBreak/>
-                    rci e buchi, rimarrà famoso anche <LineBreak/>
+                    Spazialista,  li egli creò le sue prime <LineBreak/>
+                    tele come questa fatte da squarci<LineBreak/>
+                    e buchi, rimarrà famoso anche <LineBreak/>
                     per i sui quadri.<LineBreak/>
                 </TextBlock>
             </Grid>
@@ -38,7 +38,7 @@
         <StackPanel  Grid.Column="0">
             <Grid>
                 <Image Height="170" Source="61534_Jago-Habemus-Hominem-2009-2016.jpeg" Stretch="Fill" Width="140" HorizontalAlignment="Left"/>
-                <TextBlock  FontSize="14"  HorizontalAlignment="Right" Width="260"   >
+                <TextBlock  FontSize="14"  HorizontalAlignment="Right" Width="260"   FontWeight="UltraLight"  >
                    L'autore Jago (Jago Cardillo) ha voluto <LineBreak/>
                     immortalare in una delle sue sculture il <LineBreak/>
                     papa Benedetto XVI (joseph Ratzinger) <LineBreak/>
@@ -54,7 +54,7 @@
         <StackPanel Grid.Row="1">
             <Grid>
                 <Image  Height="150" HorizontalAlignment="Left" Width="190" VerticalAlignment="Top" Source="Les-demoiselles-dAvignon-1024x536.jpg" Stretch="Fill"/>
-                <TextBlock  FontSize="14"  HorizontalAlignment="Right" Width="210"   >
+                <TextBlock  FontSize="14"  HorizontalAlignment="Right" Width="210"  FontWeight="UltraLight"   >
                     Il seguente quadro è un quadro  <LineBreak/>
                     di Paolo Picasso Nome completo<LineBreak/>
                     Pablo Diego José Francisco <LineBreak/>
@@ -72,7 +72,7 @@
         <StackPanel Grid.Column="1" Grid.Row="1">
             <Grid>
                 <Image  Height="196" Width="190" Grid.Row="1" HorizontalAlignment="Left" Source="opera d'arte moderna.jpg" Stretch="Fill"/>
-                <TextBlock  FontSize="14"  HorizontalAlignment="Right" Width="210"   >
+                <TextBlock  FontSize="14"  HorizontalAlignment="Right" Width="210"  FontWeight="UltraLight"   >
                     Questo quadro fatto Fausto <LineBreak/>
                     Melotti nel 1986 raffortifica<LineBreak/>
                     la sua idea di contemporaneatà<LineBreak/>
