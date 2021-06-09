@@ -142,5 +142,8 @@
   <ItemGroup>
     <Resource Include="fortunato_depero_treno-partorito-dal-sole_futurismo_riassunto_due-minuti-di-arte.jpg" />
   </ItemGroup>
+  <ItemGroup>
+    <Resource Include="fontana_lucio %281%29.jpg" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

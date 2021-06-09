@@ -43,7 +43,7 @@ namespace MuseoApp
                 {
                     password = txtPass.Text;
                 }
-                else throw new Exception(" Immettere una PASSWORLD");
+                else throw new Exception(" Immettere una PASSWORD");
             }
             catch (Exception ex)
             {

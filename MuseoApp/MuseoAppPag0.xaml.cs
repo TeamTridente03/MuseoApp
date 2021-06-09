@@ -28,12 +28,12 @@ namespace MuseoApp
 
         private void btnCompra_Click(object sender, RoutedEventArgs e)
         {
-
+            Random r = new Random();
+            int n = r.Next(1000, 4000);
             double Quantita = double.Parse(txtQuantita.Text);
             int prezzo = 15;
             double totale = Quantita * prezzo;
-            lblReso.Content = $"{totale}";
-            
+            lblReso.Content = $"{n}";
         }
     }
 }
